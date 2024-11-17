@@ -56,7 +56,8 @@ A filtering mechanism allows users to filter posts by:
 
 This project is containerized with Docker:
 <ul>
-    <li>Set up and run the forum application in a Docker environment.</li>
+    <li>docker build -t forum .</li>
+    <li>docker run -p 8080:8080 forum</li>
 </ul>
 
 ## Technical Requirements
